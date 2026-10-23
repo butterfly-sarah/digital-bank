@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    background: white;
+}
+.nav img,h3{
+    display: inline-block;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+.nav a{
+    color: grey;
+    text-decoration: none;
+}
+button{
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background: -webkit-linear-gradient(right,rgb(39, 203, 39),rgb(70, 161, 173));
+    color: white;
+    cursor: pointer;
+}
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 70px 0;
+    background: url(ragged-papers-plain-white.jpg);
+    background-size: cover;
+    height: fit-content;
+}
+.home .info{
+    padding: 25%;
+}
+.home .info h1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.home .info p{
+    color: grey;
+    margin: 20px 0;
+}
+.home img{
+    width: 70%;
+}
