@@ -61,3 +61,40 @@ button{
 .home img{
     width: 70%;
 }
+.second-section{
+    margin: 50px 10%;
+}
+.second-section .first-part{
+    width: 50%;
+}
+.second-section .first-part h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 30px;
+}
+.second-section .first-part p{
+    color: grey;
+    margin-bottom: 15px;
+}
+.second-section .second-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 25px;
+}
+.second-section .second-part img{
+    border-radius: 100%;
+    width: 75px;
+    margin: 25px 0px;
+}
+.second-section .second-part h5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 20px;
+}
+.second-section .second-part p{
+    color: grey;
+}
