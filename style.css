@@ -55,6 +55,7 @@ button{
     font-weight: 100;
 }
 .home .info p{
+    text-align: justify;
     color: grey;
     margin: 20px 0;
 }
@@ -67,7 +68,7 @@ button{
 .second-section .first-part{
     width: 50%;
 }
-.second-section .first-part h3{
+.second-section .first-part h3,.latest h2{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 25px;
     text-transform: capitalize;
@@ -75,10 +76,11 @@ button{
     font-size: 30px;
 }
 .second-section .first-part p{
+    text-align: justify;
     color: grey;
     margin-bottom: 15px;
 }
-.second-section .second-part{
+.second-section .second-part,.latest .second-part{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 25px;
@@ -97,4 +99,34 @@ button{
 }
 .second-section .second-part p{
     color: grey;
+    text-align: justify;
+}
+.latest{
+    padding: 50px 10%;
+    background-color: rgb(211, 251, 226);
+}
+.latest .second-part img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.latest div h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    margin: 0 20px;
+}
+.latest div p{
+    color: grey;
+    font-size: 15px;
+    margin: 20px;
+    text-align: justify;
+}
+.latest .second-part .small{
+    color: grey;
+    font-size: 12px;
+    margin: 20px;
+    text-align: justify;
+}
+.latest .second-part div{
+    background-color: aliceblue;
 }
